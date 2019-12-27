@@ -1,8 +1,8 @@
 #psychozone
 def printPattern(n) : 
-    k = 0;
-    h=0;
-    g=0;
+    k = 0
+    h=0
+    g=0
   
     # Print upper triangle 
     for i in range(1,n+1) : 
@@ -32,7 +32,7 @@ def printPattern(n) :
         
   
         # move to next row 
-        print(""), 
+        print("") 
       
     n = n - 1
   
@@ -59,11 +59,11 @@ def printPattern(n) :
             k = k + 1
             
           
-        print(""), 
+        print("") 
               
 # Driver code 
-start = input()
-end=input()
+start = input("Enter starting letter in CAPS\n")
+end=input("Enter ending letter in CAPS\n")
 alpha=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 for i in range(len(alpha)):
      if alpha[i]==start:
